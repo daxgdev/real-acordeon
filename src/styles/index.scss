@@ -1,12 +1,14 @@
 :root {
   --first-color: #091d36;
-  --second-color: hsl(221, 36%, 35%);
+  --second-color: #394d79;
   --third-color: #5e83ba;
   --fourth-color: #f1f1f0;
   --black-color: #000;
   --white-color: #fff;
   --black-color-alpha: rgba(0, 0, 0, 0.8);
   --white-color-alpha: rgba(255, 255, 255, 0.8);
+  --max-width: 1280px;
+  --header-height: 72px;
 }
 
 * {
