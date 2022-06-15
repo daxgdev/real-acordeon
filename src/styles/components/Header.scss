@@ -6,13 +6,21 @@
   height: var(--header-height);
   padding: 0 1rem;
   border-bottom: 2px solid var(--fourth-color);
-  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
-  background-color: var(--white-color-alpha);
+  transition: 0.4s;
+  //box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
+  //background-color: var(--black-header-alpha);
+  
+  .header__bg {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
 }
+
 
 @supports (backdrop-filter: blur(1rem)) {
   .header {
     border-bottom: none;
+  }
+  .header__bg {
     background-color: var(--black-header-alpha);
     backdrop-filter: blur(1rem);
   }
