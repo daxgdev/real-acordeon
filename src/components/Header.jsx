@@ -12,7 +12,7 @@ export const Header = () => {
           logo
         </NavLink>
         <a
-          href="#"
+          href="#open"
           className="header_menu-btn"
           onClick={() => setIsActive(!isActive)}
         >
