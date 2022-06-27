@@ -1,15 +1,13 @@
 import React from "react";
 import Header from "./Header";
-import Carousel from "./Carousel";
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
     <>
       <Header></Header>
-      <Carousel />
-      <main>{children}
-      </main>
-      <footer></footer>
+      <main>{children}</main>
+      <Footer></Footer>
     </>
   );
 };

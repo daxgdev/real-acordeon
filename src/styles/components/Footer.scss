@@ -1,0 +1,101 @@
+@import "../breakpoints";
+
+.footer {
+  font-family: var(--font-2);
+  background-color: var(--dark-color);
+  a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--fourth-color-alpha);
+    transition: color 200ms ease, transform 200ms ease;
+  }
+  @media (hover: hover) {
+    a:hover {
+      color: var(--fifth-color);
+      transform: translateX(0.4rem);
+    }
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--fourth-color);
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  &__category {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--fifth-color);
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  .social-media {
+    a {
+      display: grid;
+      place-content: center;
+      align-self: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: var(--gray-color);
+    }
+    &__container {
+      @extend .footer__section;
+    }
+  }
+  @include media(tablet) {
+    a {
+      width: fit-content;
+    }
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: normal;
+      gap: 2rem 5rem;
+      text-align: left;
+      padding: 3rem 8rem;
+    }
+    &__category {
+      width: fit-content;
+    }
+    .social-media__container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .social-media a {
+      align-self: flex-start;
+      @media (hover: hover) {
+        &:hover {
+          transform: translateY(0.3rem);
+        }
+      }
+    }
+  }
+  @include media(desktop-s) {
+    &__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 0;
+    }
+    &__category {
+      width: fit-content;
+    }
+  }
+  @include media(desktop-m) {
+    &__container {
+      padding: 3rem 10rem;
+    }
+  }
+}

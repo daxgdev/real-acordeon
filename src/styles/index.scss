@@ -3,8 +3,10 @@
   --second-color: #394d79;
   --third-color: #5e83ba;
   --fourth-color: #f1f1f0;
-  --fourth-color-alpha: rgba(241, 241, 240, 0.1);
+  --fourth-color-alpha: rgba(241, 241, 240, 0.5);
   --fifth-color: #ffff7d;
+  --dark-color: #18181a;
+  --gray-color: #333;
   --black-color: #000;
   --white-color: #fff;
   --black-color-alpha: rgba(0, 0, 0, 0.850);
@@ -12,6 +14,8 @@
   --white-color-alpha: rgba(255, 255, 255, 0.1);
   --max-width: 1280px;
   --header-height: 6rem;
+  --font-1: 'Quicksand', sans-serif;
+  --font-2: 'Raleway', sans-serif;
 }
 
 * {
@@ -20,12 +24,12 @@
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: var(--font-1);
   background-color: var(--third-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-2);
   margin-top: 0;
 }
 
