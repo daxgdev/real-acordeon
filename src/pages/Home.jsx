@@ -1,13 +1,22 @@
-import { useState } from "react";
-import logo from "../assets/logo.svg";
 import Carousel from "../components/Carousel";
+import Relleno from "../components/Relleno";
 import "../styles/App.scss";
 
 const Home = () => {
-  const [count, setCount] = useState(0);
-
   return (
-    <Carousel />
+    // <Carousel />
+    <>
+      <Relleno />
+      <Relleno />
+      <Relleno />
+      <Relleno />
+      <Relleno />
+      <Relleno />
+      <Relleno />
+      <Relleno />
+      <Relleno />
+      <Relleno />
+    </>
   );
 }
 
