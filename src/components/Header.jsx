@@ -8,7 +8,7 @@ export const Header = () => {
 
   const changeColor = () => {
     // El scrollY controla cuando se activará el color
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 10) {
       setColor(true);
     } else {
       setColor(false);

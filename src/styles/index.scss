@@ -1,21 +1,38 @@
+/*
+Paleta de colores (Puede cambiar)
+#4cc9f0
+#4895ef
+#4361ee
+#3f37c9
+#3a0ca3
+#480ca8
+#560bad
+#7209b7
+#b5179e
+#f72585
+#2b2d42
+#fafaff
+*/
 :root {
-  --first-color: #091d36;
-  --second-color: #394d79;
-  --third-color: #5e83ba;
-  --fourth-color: #f1f1f0;
-  --fourth-color-alpha: rgba(241, 241, 240, 0.5);
-  --fifth-color: #ffff7d;
-  --dark-color: #18181a;
+  --first-color: #3f37c9;
+  --second-color: #4361ee;
+  --third-color: #3a0ca3;
+  --fourth-color: #fafaff;
+  --fourth-color-alpha: rgba(250, 250, 255, 0.5);
+  --fifth-color: #f72585;
+  --dark-color: #2b2d42;
   --gray-color: #333;
   --black-color: #000;
   --white-color: #fff;
-  --black-color-alpha: rgba(0, 0, 0, 0.850);
-  --black-header-alpha: rgba(0, 0, 0, 0.3);
-  --white-color-alpha: rgba(255, 255, 255, 0.1);
+  --black-color-alpha: rgba(0, 0, 0, 0.85);
+  --black-header-alpha: rgba(0, 0, 0, 0.150);
+  --white-color-alpha: rgba(255, 255, 255, 0.025);
+  --box-background: #e0e0e0;
+  --box-shadow: 10px 10px 20px rgba(213, 213, 213, 0.5), -10px -10px 20px #ebebeb;
   --max-width: 1280px;
   --header-height: 6rem;
-  --font-1: 'Quicksand', sans-serif;
-  --font-2: 'Raleway', sans-serif;
+  --font-1: "Quicksand", sans-serif;
+  --font-2: "Raleway", sans-serif;
 }
 
 * {
@@ -25,21 +42,21 @@
 body {
   margin: 0;
   font-family: var(--font-1);
-  background-color: var(--third-color);
+  background-color: var(--fourth-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-2);
   margin-top: 0;
 }
 
-img {
-  // width: 100%;
-  // height: 100%;
-  // object-fit: cover;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  margin-top: 0;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }

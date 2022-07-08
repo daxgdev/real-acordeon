@@ -1,0 +1,28 @@
+@import "../breakpoints";
+
+.faq {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 0 auto 4rem;
+  .questions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  .questions:nth-child(1) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@include media(desktop-s) {
+  .faq {
+    display: flex;
+    gap: 1.5rem;
+    .questions:nth-child(1) {
+      margin-bottom: 0;
+      padding-right: 1.5rem;
+      border-right: 1px solid var(--black-header-alpha);
+    }
+  }
+}

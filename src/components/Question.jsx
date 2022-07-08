@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useState } from "react";
+import "../styles/components/Question.scss";
 
-const Question = () => {
+const Question = ({ question, answer }) => {
+  const [activeAnswer, setActiveAnswer] = useState(false);
+
   return (
-    <div>Question</div>
-  )
-}
+    <article className="question-container">
+      <h2 className={`question ${activeAnswer && "question-active"}`}>
+        {question}
+      </h2>
+      <p className={`answer ${activeAnswer && "answer-active"}`}>{answer}</p>
+      <div
+        className="show-answer"
+        onClick={() => setActiveAnswer(!activeAnswer)}
+      >
+        <span className={`line ${activeAnswer && "active-answer"}`}></span>
+      </div>
+    </article>
+  );
+};
 
-export default Question
+export default Question;
