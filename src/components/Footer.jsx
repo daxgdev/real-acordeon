@@ -12,29 +12,29 @@ const Footer = () => {
       <div className="footer__container">
         <div className="footer__section">
           <span className="footer__category">Company</span>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
         </div>
         <div className="footer__section">
           <span className="footer__category">Get help</span>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
         </div>
         <div className="footer__section">
           <span className="footer__category">Online Shop</span>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
-          <NavLink to="/">Linkai</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
+          <NavLink to="/">Enlace</NavLink>
         </div>
         <div className="footer__section social-media">
           <span className="footer__category">Follow us</span>

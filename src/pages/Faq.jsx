@@ -14,28 +14,28 @@ const Faq = () => {
             question="¿Real Acordeón debe estár conectado para poder usarse?"
             answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut illum quaerat delectus veritatis vel labore aut modi recusandae earum repudiandae voluptatum ducimus deserunt iusto amet deleniti iure, accusamus unde."
           />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
         </div>
         <div className="questions">
           <Question
             question="¿Real Acordeón debe estár conectado para poder usarse?"
             answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut illum quaerat delectus veritatis vel labore aut modi recusandae earum repudiandae voluptatum ducimus deserunt iusto amet deleniti iure, accusamus unde."
           />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
-          <Question question="Buenas, ¿coito?" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
+          <Question question="lorem ipsum" answer="Sisas" />
         </div>
       </section>
     </>

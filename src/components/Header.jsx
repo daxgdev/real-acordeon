@@ -39,7 +39,7 @@ export const Header = () => {
         <nav className={`header_menu ${isActive && "header_is-active"}`}>
           <NavLink onClick={() => setIsActive(false)} to="/">Inicio</NavLink>
           <NavLink onClick={() => setIsActive(false)} to="/">Acerca</NavLink>
-          <NavLink onClick={() => setIsActive(false)} to="/asasa">Servicios</NavLink>
+          <NavLink onClick={() => setIsActive(false)} to="/prueba">Servicios</NavLink>
           <NavLink onClick={() => setIsActive(false)} to="/faq">Preguntas frecuentes</NavLink>
         </nav>
       </section>

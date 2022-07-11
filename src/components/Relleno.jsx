@@ -4,7 +4,7 @@ import "../styles/components/Relleno.scss";
 const Relleno = () => {
   return (
     <div className="relleno">
-      <h2>Hola soy relleno no me pare bola</h2>
+      <h2>Contenido de prueba</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum obcaecati
         consequatur dolores. Iure sed exercitationem, at cum facilis totam

@@ -8,9 +8,7 @@
     text-decoration: none;
     color: var(--fourth-color-alpha);
     transition: color 200ms ease, transform 200ms ease;
-  }
-  @media (hover: hover) {
-    a:hover {
+    &:hover {
       color: var(--fifth-color);
       transform: translateX(0.4rem);
     }
